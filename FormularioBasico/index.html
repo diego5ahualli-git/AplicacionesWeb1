@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,32 +9,48 @@
     <form action="" method="post">
         <div>
             <label for="txtNombre">
-                <b>Nombre: </b>
+                <b>Nombre:</b>
             </label>
             <br>
-            <input type="text" id="txtNombre" name="txtNombre" class="" placeholder="Ingrese su nombre">
+            <input type="text" name="txtNombre" id="txtNombre" placeholder="Ingrese su nombre" required>
             <br><br>
-            <label for="txtApellido">
-                <b>Apellido: </b>
+            <label for="txtApellido"></label>
+                <b>Apellido:</b>
             </label>
             <br>
-            <input type="text" id="txtNombre" name="txtNombre" class="" placeholder="Ingrese su apellido">
+            <input type="text" name="txtApellido" id="txtApellido" placeholder="Ingrese su apellido"required>
         </div>
-        
+
         <div>
             <br><br>
             <label for="txtEmail">
-                <b>Email: </b>
+                <b>Email:</b>
             </label>
             <br>
-            <input type="email" name="txtEmail" id="txtEmail">
+            <input type="email" name="txtEmail" id="txtEmail"required>
             <br><br>
             <label for="txtPass">
-                <b>Contraseña: </b>
+                <b>Contraseña:</b>
             </label>
             <br>
-            <input type="password" name="txtPass" id="txtPass">
+            <input type="password" name="txtPass" id="txtPass"required>
+
         </div>
+
+        <div>
+            <label for="date">
+                <br><br>
+                <b>Fecha de nacimiento:</b>
+            </label>
+            <br>
+            <input type="date" name="date" id="date"required>
+        </div>
+
+        <div>
+            <br><br>
+            <input type="submit" value="Confirmar">
+        </div>
+
     </form>
 </body>
 </html>
